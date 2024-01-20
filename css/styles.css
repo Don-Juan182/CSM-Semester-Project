@@ -44,7 +44,7 @@ main {
 
 /*Mid-range screens*/
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 481px) and (max-width: 800px) {
     label[for="hamburger-menu"] {
         display: none;
     }
@@ -57,7 +57,7 @@ main {
 
 /*Large-range screens*/
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     label[for="hamburger-menu"] {
         display: none;
     }
