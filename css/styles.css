@@ -10,7 +10,7 @@ main {
     display: block;
 }
 
-/*mobile styles up to 480px*/
+/*Small-range screens*/
 
 @media (max-width: 480px) {
     .logo_image {
@@ -37,7 +37,32 @@ main {
         display: block;
     }
 
-    .nav {
+    nav {
         display: none;
+    }
+}
+
+/*Mid-range screens*/
+
+@media (min-width: 600px) {
+    label[for="hamburger-menu"] {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+}
+
+
+/*Large-range screens*/
+
+@media (min-width: 600px) {
+    label[for="hamburger-menu"] {
+        display: none;
+    }
+
+    nav {
+        display: block;
     }
 }
