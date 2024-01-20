@@ -1,11 +1,11 @@
 /*mobile styles up to 480px*/
 
-@media (min-width: 480px) {
+@media (max-width: 480px) {
     .logo_image {
-        width: 50px;
+        width: 175px;
     }
 
-    .Explore_together img {
-        width: 500px;
+    .explore_together_image {
+        width: 300px;
     }
 }
