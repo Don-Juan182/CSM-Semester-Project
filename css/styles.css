@@ -1,5 +1,14 @@
 main {
-    background-color: #3FA752;
+    background-color: rgb(221, 235, 224);
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
 }
 
 #hamburger-menu {
@@ -10,11 +19,20 @@ main {
     display: block;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    /* This will space out the child elements */
+    align-items: center;
+    /* This will vertically center the child elements */
+    padding: 0 10px;
+}
+
 /*Small-range screens*/
 
 @media (max-width: 480px) {
     .logo_image {
-        width: 175px;
+        width: 200px;
     }
 
     .explore_together_image {
@@ -22,19 +40,20 @@ main {
     }
 
     .for_kids_image {
-        width: 300px;
+        width: 200px;
     }
 
     .for_teachers_image {
-        width: 300px;
+        width: 200px;
     }
 
     .for_researchers_image {
-        width: 300px;
+        width: 200px;
     }
 
     label[for="hamburger-menu"] {
         display: block;
+        font-size: 30px;
     }
 
     nav {
