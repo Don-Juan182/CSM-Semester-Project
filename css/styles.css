@@ -1,7 +1,14 @@
-.home_page {
-    background: 3FA752;
+main {
+    background-color: #3FA752;
 }
 
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked~nav {
+    display: block;
+}
 
 /*mobile styles up to 480px*/
 
@@ -26,4 +33,11 @@
         width: 300px;
     }
 
+    label[for="hamburger-menu"] {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
 }
