@@ -2,6 +2,10 @@ main {
     background-color: rgb(221, 235, 224);
 }
 
+.Exhibition_spaces_page {
+    background-color: rgb(243, 224, 241);
+}
+
 h4 {
     text-decoration: underline;
 }
@@ -33,7 +37,7 @@ footer {
 /*Small-range screens*/
 
 @media (max-width: 480px) {
-    /*Index-home-Explore Together*/
+    /*Index-home-Explore Together page*/
 
     img {
         margin: 15px;
@@ -96,6 +100,7 @@ footer {
     .For_researchers_content h2 {
         font-size: 18px;
         padding: 30px;
+        font-weight: normal;
     }
 
     .Explore_together_content h4,
@@ -111,14 +116,67 @@ footer {
         padding-bottom: 30px;
     }
 
-    /*Exhibition Spaces*/
+    /*Exhibition Spaces page*/
+    .Planets_image {
+        width: 400px;
+        border-radius: 15px;
+    }
 
+    .Skeletons_image {
+        width: 400px;
+        border-radius: 15px;
+    }
 
+    .Biology_and_medicine_image {
+        width: 400px;
+        border-radius: 15px;
+    }
 
+    .Robotics_and_AI_image {
+        width: 400px;
+        border-radius: 15px;
+    }
 
+    .Ecology_ant_image {
+        width: 400px;
+        border-radius: 15px;
+    }
+
+    .Cosmology_content h1,
+    .Evolution_content h1,
+    .Biology_and_medicine_content h1,
+    .Robotics_and_AI_content h1,
+    .Ecology_content h1 {
+        font-size: 24px;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 2px;
+    }
+
+    .Cosmology_content h2,
+    .Evolution_content h2,
+    .Biology_and_medicine_content h2,
+    .Robotics_and_AI_content h2 {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-weight: normal;
+    }
+
+    .Ecology_content h2 {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-weight: normal;
+    }
+
+    /*Visit page*/
 
 }
-
 
 /*Mid-range screens*/
 
