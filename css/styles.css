@@ -22,33 +22,45 @@ nav a {
 header {
     display: flex;
     justify-content: space-between;
-    /* This will space out the child elements */
     align-items: center;
-    /* This will vertically center the child elements */
-    padding: 0 10px;
+    padding: 0 5px;
+}
+
+footer {
+    text-align: center;
 }
 
 /*Small-range screens*/
 
 @media (max-width: 480px) {
+    /*Index-home-Explore Together*/
+
+    img {
+        margin: 15px;
+    }
+
     .logo_image {
         width: 200px;
     }
 
     .explore_together_image {
-        width: 300px;
+        width: 400px;
+        border-radius: 15px;
     }
 
     .for_kids_image {
         width: 200px;
+        border-radius: 15px;
     }
 
     .for_teachers_image {
         width: 200px;
+        border-radius: 15px;
     }
 
     .for_researchers_image {
         width: 200px;
+        border-radius: 15px;
     }
 
     label[for="hamburger-menu"] {
@@ -60,13 +72,22 @@ header {
         display: none;
     }
 
+    nav ul li {
+        margin-bottom: 8px;
+        list-style: none;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
 
     .Explore_together_content h1,
     .For_kids_content h1,
     .For_teachers_content h1,
     .For_researchers_content h1 {
         font-size: 24px;
-        /* Adjust the size as needed */
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 2px;
     }
 
     .Explore_together_content h2,
@@ -74,7 +95,7 @@ header {
     .For_teachers_content h2,
     .For_researchers_content h2 {
         font-size: 18px;
-        /* Adjust the size as needed */
+        padding: 30px;
     }
 
     .Explore_together_content h4,
@@ -82,8 +103,19 @@ header {
     .For_teachers_content h4,
     .For_researchers_content h4 {
         font-size: 16px;
-        /* Adjust the size as needed */
+        padding-left: 20px;
     }
+
+    .For_researchers_content h4 {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    /*Exhibition Spaces*/
+
+
+
+
 
 }
 
