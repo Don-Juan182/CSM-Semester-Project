@@ -59,7 +59,54 @@ header {
     nav {
         display: none;
     }
+
+    .Explore_together_content,
+    .For_kids_content,
+    .For_teachers_content,
+    .For_researchers_content {
+        display: flex;
+        align-items: center;
+        /* Center items vertically */
+        justify-content: flex-start;
+        /* Align items horizontally to the start */
+    }
+
+    .content_text {
+        display: flex;
+        flex-direction: column;
+        /* Stack items vertically */
+        justify-content: flex-start;
+        /* Align text to the top */
+        margin-left: 20px;
+        /* Space between the image and text block */
+    }
+
+    .Explore_together_content h1,
+    .For_kids_content h1,
+    .For_teachers_content h1,
+    .For_researchers_content h1 {
+        font-size: 24px;
+        /* Adjust the size as needed */
+    }
+
+    .Explore_together_content h2,
+    .For_kids_content h2,
+    .For_teachers_content h2,
+    .For_researchers_content h2 {
+        font-size: 18px;
+        /* Adjust the size as needed */
+    }
+
+    .Explore_together_content h4,
+    .For_kids_content h4,
+    .For_teachers_content h4,
+    .For_researchers_content h4 {
+        font-size: 16px;
+        /* Adjust the size as needed */
+    }
+
 }
+
 
 /*Mid-range screens*/
 
@@ -67,12 +114,7 @@ header {
     label[for="hamburger-menu"] {
         display: none;
     }
-
-    nav {
-        display: block;
-    }
 }
-
 
 /*Large-range screens*/
 
