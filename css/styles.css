@@ -60,26 +60,6 @@ header {
         display: none;
     }
 
-    .Explore_together_content,
-    .For_kids_content,
-    .For_teachers_content,
-    .For_researchers_content {
-        display: flex;
-        align-items: center;
-        /* Center items vertically */
-        justify-content: flex-start;
-        /* Align items horizontally to the start */
-    }
-
-    .content_text {
-        display: flex;
-        flex-direction: column;
-        /* Stack items vertically */
-        justify-content: flex-start;
-        /* Align text to the top */
-        margin-left: 20px;
-        /* Space between the image and text block */
-    }
 
     .Explore_together_content h1,
     .For_kids_content h1,
