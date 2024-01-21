@@ -1,9 +1,13 @@
 main {
-    background-color: rgb(221, 235, 224);
+    background-color: #ddebe0;
 }
 
 .Exhibition_spaces_page {
-    background-color: rgb(243, 224, 241);
+    background-color: #f3e0f1;
+}
+
+.visit_page {
+    background-color: #ccd3ec;
 }
 
 h4 {
@@ -70,6 +74,7 @@ footer {
     label[for="hamburger-menu"] {
         display: block;
         font-size: 30px;
+        padding-right: 20px;
     }
 
     nav {
@@ -133,7 +138,7 @@ footer {
     }
 
     .Robotics_and_AI_image {
-        width: 400px;
+        width: 300px;
         border-radius: 15px;
     }
 
@@ -175,7 +180,53 @@ footer {
     }
 
     /*Visit page*/
+    .museum_image {
+        width: 400px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
 
+    .Visit_content h3 {
+        font-weight: normal;
+    }
+
+    .Visit_content h1 {
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .Visit_content h2,
+    h3 {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .Hours_content h4 {
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-weight: normal;
+        text-decoration: none;
+    }
+
+    .last_h3_content {
+        font-size: 18px;
+        padding-bottom: 30px;
+        font-weight: normal;
+    }
+
+    /*Footer*/
+
+    footer {
+        margin: 10px;
+    }
 }
 
 /*Mid-range screens*/
