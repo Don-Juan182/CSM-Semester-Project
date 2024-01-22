@@ -278,21 +278,23 @@ footer {
         margin: 10px;
     }
 
-    /*Button*/
+    /*Button 1*/
     button {
+        width: 120px;
+        height: 40px;
         border: none;
         display: block;
         position: relative;
         padding: 0.7em 2.4em;
-        font-size: 14px;
+        font-size: 12px;
         background: transparent;
         cursor: pointer;
         user-select: none;
         overflow: hidden;
+        /* Changed to ensure the border is not hidden */
         color: royalblue;
         z-index: 1;
-        font-family: inherit;
-        font-weight: 300;
+        font-weight: 500;
     }
 
     button span {
@@ -303,7 +305,8 @@ footer {
         height: 100%;
         background: transparent;
         z-index: -1;
-        border: 4px solid royalblue;
+        border: 2px solid royalblue;
+        /* Ensure this border is visible */
     }
 
     button span::before {
@@ -311,12 +314,12 @@ footer {
         display: block;
         position: absolute;
         width: 8%;
-        height: 500%;
+        height: 400%;
         background: var(--lightgray);
-        top: 100%;
-        left: 100%;
+        top: 50%;
+        left: 50%;
         transform: translate(-50%, -50%) rotate(-60deg);
-        transition: all 0.3s;
+        transition: all 0.5s;
     }
 
     button:hover span::before {
@@ -326,13 +329,58 @@ footer {
     }
 
     button:hover {
-        color: white;
+        color: #262626;
     }
 
     button:active span::before {
         background: #2751cd;
     }
 
+    /*Button 2*/
+    #bottone5 {
+        align-items: center;
+        background-color: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: .25rem;
+        box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+        box-sizing: border-box;
+        color: rgba(0, 0, 0, 0.85);
+        cursor: pointer;
+        display: inline-flex;
+        font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        justify-content: center;
+        line-height: 1.25;
+        min-height: 1rem;
+        padding: calc(.500rem - 1px) calc(1.5rem - 1px);
+        text-decoration: none;
+        transition: all 250ms;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        width: auto;
+    }
+
+    #bottone5:hover,
+    #bottone5:focus {
+        border-color: rgba(0, 0, 0, 0.15);
+        box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+        color: rgba(0, 0, 0, 0.65);
+    }
+
+    #bottone5:hover {
+        transform: translateY(-1px);
+    }
+
+    #bottone5:active {
+        background-color: #ddebe0;
+        border-color: rgba(0, 0, 0, 0.15);
+        box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+        color: rgba(0, 0, 0, 0.65);
+        transform: translateY(0);
+    }
 }
 
 
