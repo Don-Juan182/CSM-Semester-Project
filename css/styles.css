@@ -2,6 +2,19 @@ main {
     background-color: #ddebe0;
 }
 
+header {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    /* Cover the entire header area */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    height: 200px;
+    /* Set the height of the header, adjust as needed */
+    /* Add other styling for your header as needed */
+}
+
 .Exhibition_spaces_page {
     background-color: #f3e0f1;
 }
@@ -54,9 +67,112 @@ footer {
     text-align: center;
 }
 
+/*Button 1*/
+button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    display: block;
+    position: relative;
+    padding: 0.7em 2.4em;
+    font-size: 12px;
+    background: transparent;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    /* Changed to ensure the border is not hidden */
+    color: royalblue;
+    z-index: 1;
+    font-weight: 500;
+}
+
+button span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: -1;
+    border: 2px solid royalblue;
+    /* Ensure this border is visible */
+}
+
+button span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8%;
+    height: 400%;
+    background: var(--lightgray);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-60deg);
+    transition: all 0.5s;
+}
+
+button:hover span::before {
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 100%;
+    background: royalblue;
+}
+
+button:hover {
+    color: #262626;
+}
+
+button:active span::before {
+    background: #2751cd;
+}
+
+/*Button 2*/
+#bottone5 {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 12px;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 1rem;
+    padding: calc(.500rem - 1px) calc(1.2rem - 1px);
+    text-decoration: none;
+    transition: all 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+#bottone5:hover,
+#bottone5:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+#bottone5:hover {
+    transform: translateY(-1px);
+}
+
+#bottone5:active {
+    background-color: #ddebe0;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
 /*Small-range screens*/
 
-@media (max-width: 480px) {
+@media (max-width: 659px) {
 
     /*Index-home-Explore Together page*/
     img {
@@ -278,9 +394,116 @@ footer {
         margin: 10px;
     }
 
+}
+
+
+/*Mid-range screens*/
+
+@media only screen and (min-width: 659px) and (max-width: 1000px) {
+    label[for="hamburger-menu"] {
+        display: none;
+    }
+
+    /*Index-home-Explore Together page*/
+    img {
+        margin: 15px;
+    }
+
+    .logo_image {
+        width: 300px;
+    }
+
+    .explore_together_image {
+        width: 400px;
+        border-radius: 15px;
+    }
+
+    .for_kids_image {
+        width: 200px;
+        border-radius: 15px;
+    }
+
+    .for_teachers_image {
+        width: 200px;
+        border-radius: 15px;
+    }
+
+    .for_researchers_image {
+        width: 200px;
+        border-radius: 15px;
+    }
+
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 5px;
+        list-style: none;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+
+    .Explore_together_content h1,
+    .For_kids_content h1,
+    .For_teachers_content h1,
+    .For_researchers_content h1 {
+        font-size: 24px;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 2px;
+    }
+
+    .Explore_together_content h2,
+    .For_kids_content h2,
+    .For_teachers_content h2,
+    .For_researchers_content h2 {
+        font-size: 18px;
+        padding: 30px;
+        font-weight: normal;
+    }
+
+    .Explore_together_content h4,
+    .For_kids_content h4,
+    .For_teachers_content h4,
+    .For_researchers_content h4 {
+        font-size: 16px;
+        padding-left: 20px;
+    }
+
+    .For_researchers_content h4 {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    /*Exhibition Spaces page*/
+    .Planets_image {
+        width: 400px;
+        border-radius: 15px;
+    }
+
+    .Skeletons_image {
+        width: 400px;
+        border-radius: 15px;
+    }
+
+    .Biology_and_medicine_image {
+        width: 400px;
+        border-radius: 15px;
+    }
+
+    .Robotics_and_AI_image {
+        width: 300px;
+        border-radius: 15px;
+    }
+
+    .Ecology_ant_image {
+        width: 400px;
+        border-radius: 15px;
+    }
+
     /*Button 1*/
     button {
-        width: 120px;
+        width: 80px;
         height: 40px;
         border: none;
         display: block;
@@ -336,65 +559,11 @@ footer {
         background: #2751cd;
     }
 
-    /*Button 2*/
-    #bottone5 {
-        align-items: center;
-        background-color: #FFFFFF;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        border-radius: .25rem;
-        box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-        box-sizing: border-box;
-        color: rgba(0, 0, 0, 0.85);
-        cursor: pointer;
-        display: inline-flex;
-        font-size: 12px;
-        font-weight: 500;
-        justify-content: center;
-        line-height: 1.25;
-        min-height: 1rem;
-        padding: calc(.500rem - 1px) calc(1.2rem - 1px);
-        text-decoration: none;
-        transition: all 150ms;
-        user-select: none;
-        -webkit-user-select: none;
-        touch-action: manipulation;
-        vertical-align: baseline;
-        width: auto;
-    }
-
-    #bottone5:hover,
-    #bottone5:focus {
-        border-color: rgba(0, 0, 0, 0.15);
-        box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-        color: rgba(0, 0, 0, 0.65);
-    }
-
-    #bottone5:hover {
-        transform: translateY(-1px);
-    }
-
-    #bottone5:active {
-        background-color: #ddebe0;
-        border-color: rgba(0, 0, 0, 0.15);
-        box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
-        color: rgba(0, 0, 0, 0.65);
-        transform: translateY(0);
-    }
-
-}
-
-
-/*Mid-range screens*/
-
-@media only screen and (min-width: 481px) and (max-width: 800px) {
-    label[for="hamburger-menu"] {
-        display: none;
-    }
 }
 
 /*Large-range screens*/
 
-@media (min-width: 800px) {
+@media (min-width: 1002px) {
     label[for="hamburger-menu"] {
         display: none;
     }
