@@ -2,19 +2,6 @@ main {
     background-color: #ddebe0;
 }
 
-header {
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    /* Cover the entire header area */
-    background-position: center;
-    /* Center the image */
-    background-repeat: no-repeat;
-    /* Prevent the image from repeating */
-    height: 200px;
-    /* Set the height of the header, adjust as needed */
-    /* Add other styling for your header as needed */
-}
-
 .Exhibition_spaces_page {
     background-color: #f3e0f1;
 }
