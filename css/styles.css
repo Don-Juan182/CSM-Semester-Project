@@ -1,5 +1,5 @@
 main {
-    background-color: #ddebe0;
+    background-color: #ffffff;
 }
 
 .Exhibition_spaces_page {
@@ -44,10 +44,12 @@ a:hover {
 }
 
 header {
+    background-color: #edebeb;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 5px;
+
 }
 
 footer {
@@ -162,6 +164,7 @@ button:active span::before {
 @media (max-width: 659px) {
 
     /*Index-home-Explore Together page*/
+
     img {
         margin: 15px;
     }
@@ -175,9 +178,95 @@ button:active span::before {
         border-radius: 15px;
     }
 
-    .for_kids_image {
-        width: 200px;
+    .For_kids_content_bigscreens {
+        display: none;
+    }
+
+    .Explore_together {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ddebe0;
         border-radius: 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        max-width: 1188px;
+        /* Adjust the width as per your design */
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .Explore_together>div:first-child {
+        width: 100%;
+    }
+
+    .Explore_together img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .Explore_together>div:last-child {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+
+    }
+
+    .Explore_together h1,
+    .Explore_together h2,
+    .Explore_together h4 {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Common styles for all sections */
+    section {
+        display: flex;
+        background-color: #ddebe0;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        max-width: 1188px;
+        /* Adjust the width as per your design */
+        margin: 20px auto;
+    }
+
+    section>div:first-child {
+        flex: 1;
+        padding-right: 20px;
+    }
+
+    section>div:last-child {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    section img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    section h1 {
+        margin: 0 0 10px 0;
+    }
+
+    section h2 {
+        margin: 0 0 20px 0;
+    }
+
+    section h4 {
+        margin: 0;
+        align-self: start;
+    }
+
+    .for_teachers_image {
+        display: block;
+        align-items: start;
     }
 
     .for_teachers_image {
@@ -208,7 +297,7 @@ button:active span::before {
     }
 
 
-    .Explore_together_content h1,
+    .Explore_together h1,
     .For_kids_content h1,
     .For_teachers_content h1,
     .For_researchers_content h1 {
@@ -218,7 +307,7 @@ button:active span::before {
         padding-bottom: 2px;
     }
 
-    .Explore_together_content h2,
+    .Explore_together h2,
     .For_kids_content h2,
     .For_teachers_content h2,
     .For_researchers_content h2 {
@@ -227,7 +316,7 @@ button:active span::before {
         font-weight: normal;
     }
 
-    .Explore_together_content h4,
+    .Explore_together h4,
     .For_kids_content h4,
     .For_teachers_content h4,
     .For_researchers_content h4 {
@@ -387,6 +476,7 @@ button:active span::before {
 /*Mid-range screens*/
 
 @media only screen and (min-width: 659px) and (max-width: 1000px) {
+
     label[for="hamburger-menu"] {
         display: none;
     }
@@ -397,11 +487,12 @@ button:active span::before {
     }
 
     .logo_image {
-        width: 300px;
+        width: 400px;
     }
 
     .explore_together_image {
-        width: 400px;
+        height: 300px;
+        width: 800px;
         border-radius: 15px;
     }
 
