@@ -329,7 +329,6 @@ button:active span::before {
         font-weight: bold;
     }
 
-
     .Explore_together h1,
     .For_kids_content h1,
     .For_teachers_content h1,
@@ -372,7 +371,6 @@ button:active span::before {
         background-color: #f3e0f1;
     }
 
-    /*her*/
     .exhibition-section {
         display: flex;
         flex-direction: column;
@@ -385,18 +383,15 @@ button:active span::before {
 
     .exhibition-section div h1 {
         order: 1;
-        /* h1 tags first */
     }
 
     .exhibition-section div img {
         order: 2;
-        /* img tags second */
     }
 
     .exhibition-section div h2,
     .exhibition-section div h4 {
         order: 3;
-        /* h2 and h4 tags third */
     }
 
     .Cosmology_content h4,
@@ -408,63 +403,44 @@ button:active span::before {
         padding-left: 20px;
     }
 
-
-
-    /* Base styles for the content sections */
     .Cosmology_content,
     .Evolution_content,
     .Biology_and_medicine_content,
     .Robotics_and_AI_content,
     .Ecology_content {
         border-radius: 15px;
-        /* Rounded corners for the card */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        /* Shadow for depth */
         margin: 40px auto;
-        /* Adds top and bottom margin for spacing */
         padding: 20px;
-        /* Padding inside the section */
         max-width: 800px;
-        /* Adjust the width as needed */
     }
 
-    /* Styles for the h1 titles */
     .Cosmology_content h1,
     .Evolution_content h1,
     .Biology_and_medicine_content h1,
     .Robotics_and_AI_content h1,
     .Ecology_content h1 {
         margin-bottom: 20px;
-        /* Space below the title */
     }
 
-    /* Styles for the images */
     .Cosmology_content img,
     .Evolution_content img,
     .Biology_and_medicine_content img,
     .Robotics_and_AI_content img,
     .Ecology_content img {
         width: 100%;
-        /* Image will take the full width of the container */
         height: auto;
-        /* Maintain aspect ratio */
         border-radius: 10px;
-        /* Rounded corners for the image */
         margin-bottom: 20px;
-        /* Space below the image */
     }
 
-    /* Styles for the description texts (h2) */
     .Cosmology_content h2,
     .Evolution_content h2,
     .Biology_and_medicine_content h2,
     .Robotics_and_AI_content h2,
     .Ecology_content h2 {
         margin-bottom: 20px;
-        /* Space below each h2 */
     }
-
-    /*her*/
 
     .Planets_image {
         width: 400px;
@@ -498,7 +474,6 @@ button:active span::before {
     .Ecology_content_midscreens1 {
         display: none;
     }
-
 
     .Cosmology_content h1,
     .Evolution_content h1,
@@ -614,9 +589,7 @@ button:active span::before {
     footer {
         margin: 10px;
     }
-
 }
-
 
 /*Mid-range screens*/
 
@@ -656,7 +629,6 @@ button:active span::before {
         border-radius: 15px;
     }
 
-
     nav ul li {
         display: inline-block;
         margin-right: 5px;
@@ -664,7 +636,6 @@ button:active span::before {
         font-size: 12px;
         font-weight: bold;
     }
-
 
     .Explore_together_content h1,
     .For_kids_content h1,
