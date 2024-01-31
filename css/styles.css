@@ -365,7 +365,14 @@ button:active span::before {
         /* h2 and h4 tags third */
     }
 
-
+    .Cosmology_content h4,
+    .Evolution_content h4,
+    .Biology_and_medicine_content h4,
+    .Robotics_and_AI_content h4,
+    .Ecology_content h4 {
+        font-size: 16px;
+        padding-left: 20px;
+    }
 
 
 
