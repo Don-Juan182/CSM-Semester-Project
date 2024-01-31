@@ -211,7 +211,6 @@ button:active span::before {
         flex-direction: column;
         align-items: center;
         padding-top: 20px;
-
     }
 
     .Explore_together h1,
@@ -221,44 +220,79 @@ button:active span::before {
         width: 100%;
     }
 
-    section {
+    .Explore_together,
+    .For_kids_content,
+    .For_teachers_content,
+    .For_researchers_content {
         display: flex;
         background-color: #ddebe0;
         padding: 20px;
         border-radius: 15px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         max-width: 1188px;
-        /* Adjust the width as per your design */
         margin: 20px auto;
     }
 
-    section>div:first-child {
+    .Explore_together>div:first-child,
+    .For_kids_content>div:first-child,
+    .For_teachers_content>div:first-child,
+    .For_researchers_content>div:first-child {
         flex: 1;
         padding-right: 20px;
     }
 
-    section>div:last-child {
+    .Explore_together>div:last-child,
+    .For_kids_content>div:last-child,
+    .For_teachers_content>div:last-child,
+    .For_researchers_content>div:last-child {
         flex: 2;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    section img {
+    .Explore_together img,
+    .For_kids_content img,
+    .For_teachers_content img,
+    .For_researchers_content img {
         width: 100%;
         height: auto;
         border-radius: 10px;
     }
 
-    section h1 {
+    .Explore_together h1,
+    .Explore_together h2,
+    .Explore_together h4,
+    .For_kids_content h1,
+    .For_kids_content h2,
+    .For_kids_content h4,
+    .For_teachers_content h1,
+    .For_teachers_content h2,
+    .For_teachers_content h4,
+    .For_researchers_content h1,
+    .For_researchers_content h2,
+    .For_researchers_content h4 {
+        width: 100%;
+    }
+
+    .Explore_together h1,
+    .For_kids_content h1,
+    .For_teachers_content h1,
+    .For_researchers_content h1 {
         margin: 0 0 10px 0;
     }
 
-    section h2 {
+    .Explore_together h2,
+    .For_kids_content h2,
+    .For_teachers_content h2,
+    .For_researchers_content h2 {
         margin: 0 0 20px 0;
     }
 
-    section h4 {
+    .Explore_together h4,
+    .For_kids_content h4,
+    .For_teachers_content h4,
+    .For_researchers_content h4 {
         margin: 0;
         align-self: start;
     }
