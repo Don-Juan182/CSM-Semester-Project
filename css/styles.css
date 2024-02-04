@@ -1056,4 +1056,10 @@ button:active span::before {
         margin-top: 10px;
         font-size: 16px;
     }
+
+    footer {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
 }
