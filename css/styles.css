@@ -80,7 +80,6 @@ img {
     border-radius: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     max-width: 1188px;
-    /* Adjust the width as per your design */
     margin: 20px auto;
     padding: 20px;
 }
@@ -287,6 +286,16 @@ img {
     margin-bottom: 20px;
 }
 
+.Planets_image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+
 .Cosmology_content img,
 .Evolution_content img,
 .Biology_and_medicine_content img,
@@ -363,6 +372,16 @@ img {
     max-width: 1188px;
 }
 
+.Visit_content img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
 .Visit_content h1 {
     font-size: 24px;
     padding-top: 10px;
@@ -403,9 +422,27 @@ h3 {
 
 .Get_Involved {
     background-color: #e0e5f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddebe0;
+    border-radius: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     max-width: 1188px;
+    margin: 20px auto;
+    padding: 20px;
 }
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
 
 .Get_Involved,
 .Get_Involved_content {
@@ -662,8 +699,6 @@ button:active span::before {
         font-weight: bold;
     }
 
-
-
     /*Exhibition Spaces page*/
 
     .Planets_image {
@@ -691,7 +726,6 @@ button:active span::before {
         border-radius: 15px;
     }
 
-
     /*Visit page*/
 
     .museum_image {
@@ -701,8 +735,6 @@ button:active span::before {
         margin: 5px;
         border-radius: 15px;
     }
-
-
 
     /*Get Involved*/
 
@@ -714,8 +746,6 @@ button:active span::before {
         display: block;
         border-radius: 15px;
     }
-
-
 
     /*pictures*/
 
@@ -1004,6 +1034,17 @@ button:active span::before {
         width: 100%;
         max-width: 100%;
         box-sizing: border-box;
+    }
+
+    .explore_together_image,
+    .museum_image,
+    .background_image,
+    .Planets_image {
+        margin: 0 auto;
+        display: block;
+        max-width: 70%;
+        height: auto;
+        object-fit: cover;
     }
 
     .logo_image {
