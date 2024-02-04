@@ -55,7 +55,307 @@ header {
     border-radius: 10px;
 }
 
+img {
+    max-width: 80%;
+}
+
+.explore_together_image,
+.Planets_image,
+.museum_image,
+.background_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/*Index-home-Explore Together page*/
+
+.Explore_together {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddebe0;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 1188px;
+    /* Adjust the width as per your design */
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.Explore_together>div:first-child {
+    width: 100%;
+}
+
+.Explore_together img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.Explore_together>div:last-child {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.Explore_together h1,
+.Explore_together h2,
+.Explore_together h4 {
+    text-align: center;
+    width: 100%;
+}
+
+.Explore_together,
+.For_kids_content,
+.For_teachers_content,
+.For_researchers_content {
+    display: flex;
+    background-color: #ddebe0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 1188px;
+    margin: 20px auto;
+}
+
+.Explore_together>div:first-child,
+.For_kids_content>div:first-child,
+.For_teachers_content>div:first-child,
+.For_researchers_content>div:first-child {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.Explore_together>div:last-child,
+.For_kids_content>div:last-child,
+.For_teachers_content>div:last-child,
+.For_researchers_content>div:last-child {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Explore_together img,
+.For_kids_content img,
+.For_teachers_content img,
+.For_researchers_content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Explore_together h1,
+.Explore_together h2,
+.Explore_together h4,
+.For_kids_content h1,
+.For_kids_content h2,
+.For_kids_content h4,
+.For_teachers_content h1,
+.For_teachers_content h2,
+.For_teachers_content h4,
+.For_researchers_content h1,
+.For_researchers_content h2,
+.For_researchers_content h4 {
+    width: 100%;
+}
+
+.Explore_together h1,
+.For_kids_content h1,
+.For_teachers_content h1,
+.For_researchers_content h1 {
+    margin: 0 0 10px 0;
+}
+
+.Explore_together h2,
+.For_kids_content h2,
+.For_teachers_content h2,
+.For_researchers_content h2 {
+    margin: 0 0 20px 0;
+}
+
+.Explore_together h4,
+.For_kids_content h4,
+.For_teachers_content h4,
+.For_researchers_content h4 {
+    margin: 0;
+    align-self: start;
+}
+
+.for_teachers_image {
+    display: block;
+    align-items: start;
+}
+
+
+/*Exhibition Spaces page*/
+
+.Cosmology_content,
+.Evolution_content,
+.Biology_and_medicine_content,
+.Robotics_and_AI_content,
+.Ecology_content {
+    background-color: #f3e0f1;
+}
+
+.exhibition-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.exhibition-section div {
+    display: flex;
+    flex-direction: column;
+}
+
+.exhibition-section div h1 {
+    order: 1;
+}
+
+.exhibition-section div img {
+    order: 2;
+}
+
+.exhibition-section div h2,
+.exhibition-section div h4 {
+    order: 3;
+}
+
+.Cosmology_content h4,
+.Evolution_content h4,
+.Biology_and_medicine_content h4,
+.Robotics_and_AI_content h4,
+.Ecology_content h4 {
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.Cosmology_content,
+.Evolution_content,
+.Biology_and_medicine_content,
+.Robotics_and_AI_content,
+.Ecology_content {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1188px;
+}
+
+.Cosmology_content h1,
+.Evolution_content h1,
+.Biology_and_medicine_content h1,
+.Robotics_and_AI_content h1,
+.Ecology_content h1 {
+    margin-bottom: 20px;
+}
+
+.Cosmology_content img,
+.Evolution_content img,
+.Biology_and_medicine_content img,
+.Robotics_and_AI_content img,
+.Ecology_content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.Cosmology_content h2,
+.Evolution_content h2,
+.Biology_and_medicine_content h2,
+.Robotics_and_AI_content h2,
+.Ecology_content h2 {
+    margin-bottom: 20px;
+}
+
+/*Visit page*/
+
+.Visit_content,
+.Hours_content,
+.last_h3_content {
+    background-color: #e0e5f3;
+}
+
+.Visit_content,
+.Hours_content {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1188px;
+}
+
+/*Get Involved*/
+
+
+.Get_Involved {
+    background-color: #e0e5f3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 1188px;
+}
+
+.Get_Involved,
+.Get_Involved_content {
+    background-color: #e0e5f3;
+    border-radius: 15px;
+}
+
+.image-container {
+    padding: 15px;
+    display: block;
+    width: calc(100% - 30px);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/*pictures*/
+
+.Pictures {
+    background-color: #ddebe0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 1188px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*Contant Us page*/
+.contact_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 1188px;
+    border-radius: 10px;
+}
+
+.contact_page label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+/*Footer*/
+
 footer {
+    background-image: url(../images/lab-512503_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
     margin-top: 20px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -63,6 +363,11 @@ footer {
     border-radius: 10px;
     font-weight: bolder;
     color: #ffffff;
+
+    footer img {
+        filter: brightness(80%);
+    }
+
 }
 
 /*Button 1*/
@@ -199,126 +504,6 @@ button:active span::before {
         display: none;
     }
 
-    .Explore_together {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #ddebe0;
-        border-radius: 15px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        max-width: 1188px;
-        /* Adjust the width as per your design */
-        margin: 20px auto;
-        padding: 20px;
-    }
-
-    .Explore_together>div:first-child {
-        width: 100%;
-    }
-
-    .Explore_together img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px 10px 0 0;
-    }
-
-    .Explore_together>div:last-child {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 20px;
-    }
-
-    .Explore_together h1,
-    .Explore_together h2,
-    .Explore_together h4 {
-        text-align: center;
-        width: 100%;
-    }
-
-    .Explore_together,
-    .For_kids_content,
-    .For_teachers_content,
-    .For_researchers_content {
-        display: flex;
-        background-color: #ddebe0;
-        padding: 20px;
-        border-radius: 15px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        max-width: 1188px;
-        margin: 20px auto;
-    }
-
-    .Explore_together>div:first-child,
-    .For_kids_content>div:first-child,
-    .For_teachers_content>div:first-child,
-    .For_researchers_content>div:first-child {
-        flex: 1;
-        padding-right: 20px;
-    }
-
-    .Explore_together>div:last-child,
-    .For_kids_content>div:last-child,
-    .For_teachers_content>div:last-child,
-    .For_researchers_content>div:last-child {
-        flex: 2;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .Explore_together img,
-    .For_kids_content img,
-    .For_teachers_content img,
-    .For_researchers_content img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-    }
-
-    .Explore_together h1,
-    .Explore_together h2,
-    .Explore_together h4,
-    .For_kids_content h1,
-    .For_kids_content h2,
-    .For_kids_content h4,
-    .For_teachers_content h1,
-    .For_teachers_content h2,
-    .For_teachers_content h4,
-    .For_researchers_content h1,
-    .For_researchers_content h2,
-    .For_researchers_content h4 {
-        width: 100%;
-    }
-
-    .Explore_together h1,
-    .For_kids_content h1,
-    .For_teachers_content h1,
-    .For_researchers_content h1 {
-        margin: 0 0 10px 0;
-    }
-
-    .Explore_together h2,
-    .For_kids_content h2,
-    .For_teachers_content h2,
-    .For_researchers_content h2 {
-        margin: 0 0 20px 0;
-    }
-
-    .Explore_together h4,
-    .For_kids_content h4,
-    .For_teachers_content h4,
-    .For_researchers_content h4 {
-        margin: 0;
-        align-self: start;
-    }
-
-    .for_teachers_image {
-        display: block;
-        align-items: start;
-    }
-
     .for_teachers_image {
         width: 200px;
         border-radius: 15px;
@@ -379,85 +564,6 @@ button:active span::before {
     }
 
     /*Exhibition Spaces page*/
-
-    .Cosmology_content,
-    .Evolution_content,
-    .Biology_and_medicine_content,
-    .Robotics_and_AI_content,
-    .Ecology_content {
-        background-color: #f3e0f1;
-    }
-
-    .exhibition-section {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .exhibition-section div {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .exhibition-section div h1 {
-        order: 1;
-    }
-
-    .exhibition-section div img {
-        order: 2;
-    }
-
-    .exhibition-section div h2,
-    .exhibition-section div h4 {
-        order: 3;
-    }
-
-    .Cosmology_content h4,
-    .Evolution_content h4,
-    .Biology_and_medicine_content h4,
-    .Robotics_and_AI_content h4,
-    .Ecology_content h4 {
-        font-size: 16px;
-        padding-left: 20px;
-    }
-
-    .Cosmology_content,
-    .Evolution_content,
-    .Biology_and_medicine_content,
-    .Robotics_and_AI_content,
-    .Ecology_content {
-        border-radius: 15px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        margin: 40px auto;
-        padding: 20px;
-        max-width: 800px;
-    }
-
-    .Cosmology_content h1,
-    .Evolution_content h1,
-    .Biology_and_medicine_content h1,
-    .Robotics_and_AI_content h1,
-    .Ecology_content h1 {
-        margin-bottom: 20px;
-    }
-
-    .Cosmology_content img,
-    .Evolution_content img,
-    .Biology_and_medicine_content img,
-    .Robotics_and_AI_content img,
-    .Ecology_content img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        margin-bottom: 20px;
-    }
-
-    .Cosmology_content h2,
-    .Evolution_content h2,
-    .Biology_and_medicine_content h2,
-    .Robotics_and_AI_content h2,
-    .Ecology_content h2 {
-        margin-bottom: 20px;
-    }
 
     .Planets_image {
         width: 400px;
@@ -525,20 +631,6 @@ button:active span::before {
     }
 
     /*Visit page*/
-    .Visit_content,
-    .Hours_content,
-    .last_h3_content {
-        background-color: #e0e5f3;
-    }
-
-    .Visit_content,
-    .Hours_content {
-        border-radius: 15px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        margin: 40px auto;
-        padding: 20px;
-        max-width: 800px;
-    }
 
     .museum_image {
         width: 100%;
@@ -586,26 +678,6 @@ button:active span::before {
     /*Get Involved*/
 
 
-    .Get_Involved {
-        background-color: #e0e5f3;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        max-width: 1188px;
-    }
-
-    .Get_Involved,
-    .Get_Involved_content {
-        background-color: #e0e5f3;
-        border-radius: 15px;
-    }
-
-    .image-container {
-        padding: 15px;
-        display: block;
-        width: calc(100% - 30px);
-        box-sizing: border-box;
-        border-radius: 15px;
-    }
-
     .background_image {
         width: 100%;
         height: 250px;
@@ -635,52 +707,7 @@ button:active span::before {
         font-weight: normal;
     }
 
-    /*Contant Us page*/
-    .contact_page {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 20px;
-        max-width: 600px;
-        margin: 0 auto;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        max-width: 1188px;
-        border-radius: 10px;
-    }
-
-    .contact_page label {
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    .contact_page input[type="text"],
-    .contact_page input[type="email"],
-    .contact_page select {
-        margin-bottom: 20px;
-        width: 250px;
-    }
-
-    .contact_page textarea {
-        margin-bottom: 20px;
-        width: 250px;
-        height: 75px;
-    }
-
-    .form-wrapper {
-        width: 100%;
-    }
-
     /*pictures*/
-
-    .Pictures {
-        background-color: #ddebe0;
-        border-radius: 15px;
-        padding: 20px;
-        margin: auto;
-        overflow: hidden;
-    }
 
     .Pictures h1 {
         font-size: 25px;
@@ -730,19 +757,29 @@ button:active span::before {
         box-shadow: 10px 26px 60px rgba(68, 77, 136, 0.3);
     }
 
+
+    /*Contant Us page*/
+
+    .contact_page input[type="text"],
+    .contact_page input[type="email"],
+    .contact_page select {
+        margin-bottom: 20px;
+        width: 250px;
+    }
+
+    .contact_page textarea {
+        margin-bottom: 20px;
+        width: 250px;
+        height: 75px;
+    }
+
+    .form-wrapper {
+        width: 100%;
+    }
+
+
     /*Footer*/
 
-    footer {
-        background-image: url(../images/lab-512503_1920.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 20px;
-    }
-
-    footer img {
-        filter: brightness(80%);
-    }
 }
 
 /*Mid-range screens*/
@@ -759,7 +796,7 @@ button:active span::before {
     }
 
     .logo_image {
-        width: 400px;
+        width: 200px;
     }
 
     .explore_together_image {
@@ -914,6 +951,18 @@ button:active span::before {
 @media (min-width: 1002px) {
     label[for="hamburger-menu"] {
         display: none;
+    }
+
+    .logo_image {
+        width: 300px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 5px;
+        list-style: none;
+        font-size: 12px;
+        font-weight: bold;
     }
 
     nav {
