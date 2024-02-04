@@ -1022,6 +1022,12 @@ button:active span::before {
         display: block;
     }
 
+    /*Exhibition spaces page*/
+
+    .Robotics_and_AI_image {
+        max-width: 350px;
+    }
+
     /*Pictures*/
 
     .Pictures h1 {
