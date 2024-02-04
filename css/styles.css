@@ -49,11 +49,20 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 5px;
-
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 1188px;
+    border-radius: 10px;
 }
 
 footer {
+    margin-top: 20px;
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 1188px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: #ffffff;
 }
 
 /*Button 1*/
@@ -161,9 +170,7 @@ button:active span::before {
 
 .pictures1 {
     width: 100%;
-    /* Full width by default */
     margin-bottom: 20px;
-    /* Add some space between the pictures */
 }
 
 /*Small-range screens*/
@@ -522,8 +529,7 @@ button:active span::before {
     }
 
     .Visit_content,
-    .Hours_content,
-    .last_h3_content {
+    .Hours_content {
         border-radius: 15px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         margin: 40px auto;
@@ -576,9 +582,17 @@ button:active span::before {
 
     /*Get Involved*/
 
+
+    .Get_Involved {
+        background-color: #e0e5f3;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        max-width: 1188px;
+    }
+
     .Get_Involved,
     .Get_Involved_content {
         background-color: #e0e5f3;
+        border-radius: 15px;
     }
 
     .image-container {
@@ -628,6 +642,9 @@ button:active span::before {
         padding: 20px;
         max-width: 600px;
         margin: 0 auto;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        max-width: 1188px;
+        border-radius: 10px;
     }
 
     .contact_page label {
@@ -656,13 +673,17 @@ button:active span::before {
 
     .Pictures {
         background-color: #ddebe0;
+        border-radius: 15px;
+        padding: 20px;
+        margin: auto;
+        overflow: hidden;
     }
 
     .Pictures h1 {
         font-size: 25px;
         font-weight: bold;
         text-align: center;
-        margin: 10px;
+        margin: 20px;
     }
 
     .Pictures-list h2 {
@@ -676,6 +697,7 @@ button:active span::before {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
+        overflow: hidden;
     }
 
     .pictures1 {
@@ -708,12 +730,10 @@ button:active span::before {
     /*Footer*/
 
     footer {
-        font-weight: bolder;
         background-image: url(../images/lab-512503_1920.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        color: #ffffff;
         padding: 20px;
     }
 
