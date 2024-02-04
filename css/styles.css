@@ -295,7 +295,6 @@ img {
     max-width: 500px;
 }
 
-
 .Cosmology_content img,
 .Evolution_content img,
 .Biology_and_medicine_content img,
@@ -443,7 +442,6 @@ h3 {
     max-width: 500px;
 }
 
-
 .Get_Involved,
 .Get_Involved_content {
     background-color: #e0e5f3;
@@ -523,7 +521,7 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 20px;
+    padding: 30px;
     margin-top: 20px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -817,9 +815,6 @@ button:active span::before {
         width: 100%;
     }
 
-
-    /*Footer*/
-
 }
 
 /*Mid-range screens*/
@@ -828,6 +823,17 @@ button:active span::before {
 
     label[for="hamburger-menu"] {
         display: none;
+    }
+
+    .explore_together_image,
+    .museum_image,
+    .background_image,
+    .Planets_image {
+        margin: 0 auto;
+        display: block;
+        max-width: 70%;
+        height: auto;
+        object-fit: cover;
     }
 
     /*Index-home-Explore Together page*/
@@ -961,6 +967,29 @@ button:active span::before {
     .Pictures1 h2 {
         text-align: center;
         margin-top: 10px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    nav ul li {
+        margin-right: 5px;
+    }
+
+    nav ul li:last-child {
+        margin-right: 0;
     }
 
     /*Button 1*/
