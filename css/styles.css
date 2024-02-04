@@ -1000,6 +1000,12 @@ button:active span::before {
         display: none;
     }
 
+    header {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
     .logo_image {
         width: 300px;
     }
