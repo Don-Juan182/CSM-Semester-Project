@@ -59,14 +59,14 @@ img {
     max-width: 80%;
 }
 
-.explore_together_image,
-.Planets_image,
-.museum_image,
-.background_image {
+.explore_together,
+.Evolution_content,
+.Biology_and_medicine_content,
+.Robotics_and_AI_content,
+.Ecology_content {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
 
 
@@ -192,6 +192,38 @@ img {
     align-items: start;
 }
 
+.Explore_together h1,
+.For_kids_content h1,
+.For_teachers_content h1,
+.For_researchers_content h1 {
+    font-size: 24px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 2px;
+}
+
+.Explore_together h2,
+.For_kids_content h2,
+.For_teachers_content h2,
+.For_researchers_content h2 {
+    font-size: 18px;
+    padding: 15px;
+    font-weight: normal;
+}
+
+.Explore_together h4,
+.For_kids_content h4,
+.For_teachers_content h4,
+.For_researchers_content h4 {
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.For_researchers_content h4 {
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
 
 /*Exhibition Spaces page*/
 
@@ -274,6 +306,46 @@ img {
     margin-bottom: 20px;
 }
 
+.Cosmology_content_midscreens1,
+.Evolution_content_midscreens1,
+.Biology_and_medicine_content_midscreens1,
+.Robotics_and_AI_content_midscreens1,
+.Ecology_content_midscreens1 {
+    display: none;
+}
+
+.Cosmology_content h1,
+.Evolution_content h1,
+.Biology_and_medicine_content h1,
+.Robotics_and_AI_content h1,
+.Ecology_content h1 {
+    font-size: 24px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 2px;
+}
+
+.Cosmology_content h2,
+.Evolution_content h2,
+.Biology_and_medicine_content h2,
+.Robotics_and_AI_content h2 {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: normal;
+}
+
+.Ecology_content h2 {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: normal;
+}
+
 /*Visit page*/
 
 .Visit_content,
@@ -289,6 +361,41 @@ img {
     margin: 40px auto;
     padding: 20px;
     max-width: 1188px;
+}
+
+.Visit_content h1 {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.Visit_content h2,
+h3 {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.Visit_content h3 {
+    font-weight: normal;
+}
+
+.Hours_content h4 {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.last_h3_content {
+    font-size: 18px;
+    padding-bottom: 30px;
+    font-weight: normal;
 }
 
 /*Get Involved*/
@@ -314,6 +421,27 @@ img {
     border-radius: 15px;
 }
 
+.Get_Involved_content h1 {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.Get_Involved_content h2,
+h3 {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.Get_Involved_content h3 {
+    font-weight: normal;
+}
+
 /*pictures*/
 
 .Pictures {
@@ -324,6 +452,11 @@ img {
     padding: 20px;
     margin: auto;
     overflow: hidden;
+}
+
+.Pictures1 h2 {
+    font-size: 18px;
+    font-weight: normal;
 }
 
 /*Contant Us page*/
@@ -345,8 +478,6 @@ img {
     display: block;
     margin-bottom: 10px;
 }
-
-
 
 /*Footer*/
 
@@ -531,37 +662,7 @@ button:active span::before {
         font-weight: bold;
     }
 
-    .Explore_together h1,
-    .For_kids_content h1,
-    .For_teachers_content h1,
-    .For_researchers_content h1 {
-        font-size: 24px;
-        padding-top: 30px;
-        padding-left: 30px;
-        padding-bottom: 2px;
-    }
 
-    .Explore_together h2,
-    .For_kids_content h2,
-    .For_teachers_content h2,
-    .For_researchers_content h2 {
-        font-size: 18px;
-        padding: 15px;
-        font-weight: normal;
-    }
-
-    .Explore_together h4,
-    .For_kids_content h4,
-    .For_teachers_content h4,
-    .For_researchers_content h4 {
-        font-size: 16px;
-        padding-left: 20px;
-    }
-
-    .For_researchers_content h4 {
-        font-size: 16px;
-        padding-bottom: 30px;
-    }
 
     /*Exhibition Spaces page*/
 
@@ -590,45 +691,6 @@ button:active span::before {
         border-radius: 15px;
     }
 
-    .Cosmology_content_midscreens1,
-    .Evolution_content_midscreens1,
-    .Biology_and_medicine_content_midscreens1,
-    .Robotics_and_AI_content_midscreens1,
-    .Ecology_content_midscreens1 {
-        display: none;
-    }
-
-    .Cosmology_content h1,
-    .Evolution_content h1,
-    .Biology_and_medicine_content h1,
-    .Robotics_and_AI_content h1,
-    .Ecology_content h1 {
-        font-size: 24px;
-        padding-top: 30px;
-        padding-left: 30px;
-        padding-bottom: 2px;
-    }
-
-    .Cosmology_content h2,
-    .Evolution_content h2,
-    .Biology_and_medicine_content h2,
-    .Robotics_and_AI_content h2 {
-        font-size: 18px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
-        font-weight: normal;
-    }
-
-    .Ecology_content h2 {
-        font-size: 18px;
-        padding-top: 10px;
-        padding-bottom: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
-        font-weight: normal;
-    }
 
     /*Visit page*/
 
@@ -640,40 +702,7 @@ button:active span::before {
         border-radius: 15px;
     }
 
-    .Visit_content h1 {
-        font-size: 24px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
 
-    .Visit_content h2,
-    h3 {
-        font-size: 18px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .Visit_content h3 {
-        font-weight: normal;
-    }
-
-    .Hours_content h4 {
-        font-size: 18px;
-        padding-left: 30px;
-        padding-right: 30px;
-        font-weight: normal;
-        text-decoration: none;
-    }
-
-    .last_h3_content {
-        font-size: 18px;
-        padding-bottom: 30px;
-        font-weight: normal;
-    }
 
     /*Get Involved*/
 
@@ -686,26 +715,7 @@ button:active span::before {
         border-radius: 15px;
     }
 
-    .Get_Involved_content h1 {
-        font-size: 24px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
 
-    .Get_Involved_content h2,
-    h3 {
-        font-size: 18px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .Get_Involved_content h3 {
-        font-weight: normal;
-    }
 
     /*pictures*/
 
@@ -886,6 +896,43 @@ button:active span::before {
         border-radius: 15px;
     }
 
+    /*Pictures*/
+
+    .Pictures h1 {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .Pictures-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Pictures1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Pictures1 img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .Pictures1 h2 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
     /*Button 1*/
     button {
         width: 80px;
@@ -967,5 +1014,40 @@ button:active span::before {
 
     nav {
         display: block;
+    }
+
+    /*Pictures*/
+
+    .Pictures h1 {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .Pictures-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .Pictures1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Pictures1 img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .Pictures1 h2 {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 16px;
     }
 }
