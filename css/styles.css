@@ -535,6 +535,17 @@ footer {
         filter: brightness(80%);
     }
 
+    .form-wrapper {
+        width: 100%;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+
 }
 
 /*Button 1*/
@@ -1176,6 +1187,12 @@ button:active span::before {
 
     .form-wrapper {
         width: 100%;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
     }
 
 
