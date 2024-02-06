@@ -993,6 +993,26 @@ button:active span::before {
         margin-right: 0;
     }
 
+    /*Contant Us page*/
+
+    .contact_page input[type="text"],
+    .contact_page input[type="email"],
+    .contact_page select {
+        margin-bottom: 20px;
+        width: 250px;
+    }
+
+    .contact_page textarea {
+        margin-bottom: 20px;
+        width: 250px;
+        height: 75px;
+    }
+
+    .form-wrapper {
+        width: 100%;
+    }
+
+
     /*Button 1*/
     button {
         width: 80px;
@@ -1138,4 +1158,24 @@ button:active span::before {
         width: 100%;
         max-width: 100%;
     }
+
+    /*Contant Us page*/
+
+    .contact_page input[type="text"],
+    .contact_page input[type="email"],
+    .contact_page select {
+        margin-bottom: 20px;
+        width: 250px;
+    }
+
+    .contact_page textarea {
+        margin-bottom: 20px;
+        width: 250px;
+        height: 75px;
+    }
+
+    .form-wrapper {
+        width: 100%;
+    }
+
 }
