@@ -564,7 +564,6 @@ button {
     cursor: pointer;
     user-select: none;
     overflow: hidden;
-    /* Changed to ensure the border is not hidden */
     color: royalblue;
     z-index: 1;
     font-weight: 500;
@@ -579,7 +578,6 @@ button span {
     background: transparent;
     z-index: -1;
     border: 2px solid royalblue;
-    /* Ensure this border is visible */
 }
 
 button span::before {
